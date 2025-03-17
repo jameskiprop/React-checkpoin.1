@@ -4,7 +4,7 @@ import Price from "./components/price";
 import Description from "./components/description";
 import Image from "./components/image";
 
-const firstName = "John";
+const firstName = "James";
 const App = () => {
   return (
     <Container className="mt-5 d-flex flex-column align-items-center">
