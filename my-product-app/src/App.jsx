@@ -10,10 +10,10 @@ const App = () => {
     <Container className="mt-5 d-flex flex-column align-items-center">
       <Card style={{ width: "18rem", textAlign: "center" }}>
         <Card.Body>
-          <image />
-          <name />
-          <price />
-          <description />
+          <Image />
+          <Name />
+          <Price />
+          <Description />
         </Card.Body>
       </Card>
       <h3 className="mt-3">Hello, {firstName ? firstName : "there"}!</h3>
